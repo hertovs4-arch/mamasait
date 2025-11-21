@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F7C79F;
+}
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 2px solid #D7D7D7;
+}
+.backimg {
+    width: 100%;
+    height: 80%;
+    background-color:#F7C79F ;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+main .otkritka{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F7C79F ;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    flex: 1;
+    flex-direction: column;
+    }
+header{
+
+    background-color:white;
+
+    
+}
+#logo{
+    width: 160px;
+    height: 32px;
+    margin: 20px;
+}
+header a{
+    font-family: "Roboto" sans-serif; 
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 2px solid #D7D7D7;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    position: relative;
+
+}
+
+.knopka {
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+
+
+
